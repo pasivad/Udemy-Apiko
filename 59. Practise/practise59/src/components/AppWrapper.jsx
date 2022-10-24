@@ -1,4 +1,4 @@
-function AppWrapper({ title, children }) {
+const AppWrapper = ({ title, children }) => {
    return (
       <>
          <header className="header">{title}</header>

@@ -1,11 +1,11 @@
-function AppItem({ name, description, Image }) {
+const AppItem = ({ name, description, image }) => {
    return (
-      <>
+      <div className="appItem">
          <div>{name}</div>
-         {Image}
+         {image}
          <div>{description}</div>
-      </>
+      </div>
    );
-}
+};
 
 export default AppItem;
